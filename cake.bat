@@ -1,6 +1,7 @@
 @echo off
 set "file=portal-radio.mp3"
-( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
+( echo MsgBox("You cannot escape the cake.",0,"The Truth")
+  echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
   echo Sound.URL = "%file%"
   echo Sound.settings.volume = 100
   echo Sound.settings.setMode "loop", True
