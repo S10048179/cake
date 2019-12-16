@@ -11,4 +11,4 @@ set "file=portal-radio.mp3"
   echo Wend
 )>sound.vbs
 start /min sound.vbs
-exit /b
+exit
